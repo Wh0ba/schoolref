@@ -1,0 +1,81 @@
+[
+	{
+		"name":"Strong Acids",
+		"elements": [
+				{"formula":"HI","name":"Hydroiodic"},
+				{"formula":"HBr","name":"Hydrogen Bromide"},
+				{"formula":"HClO4","name":"Perchloric"},
+				{"formula":"HCl","name":"Hydrochloric"},
+				{"formula":"HClO3","name":"Chloric"},
+				{"formula":"H2SO4","name":"Sulfuric"},
+				{"formula":"HNO3","name":"Peroxynitric"},
+				{"formula":"H2CrO4","name":"Chromic"},
+				{"formula":"HMNO4","name":"Permanganic"}
+			]
+		},{
+		"name":"Strong Bases",
+		"elements": [
+			{"formula":"NaOH","name":"Sodium"},
+			{"formula":"KOH","name":"Potassium"},
+			{"formula":"LiOH","name":"Lithium"},
+			{"formula":"RbOH","name":"Hydrochloric"},
+			{"formula":"CsOH","name":"Caesium"},
+			{"formula":"Ca(OH)2","name":"Calcium"},
+			{"formula":"Ba(OH)2","name":"Barium"},
+			{"formula":"Sr(OH)2","name":"Strontium"}
+		]
+		},{
+		"name":"Weak Acids",
+		"elements": [
+			{"formula":"HCOOH","name":"Formic"},
+			{"formula":"CH3COOH","name":"Acetic"},
+			{"formula":"CCl3COOH","name":"Trichloroacetic"},
+			{"formula":"HF","name":"Hydrofluoric"},
+			{"formula":"HCN","name":"Hydrocyanic"},
+			{"formula":"H2S","name":"Hydrogen sulfide"},
+			{"formula":"NH4","name":"Ammonium"},
+			{"formula":"H2CO3","name":"Carbonic"},
+			{"formula":"H2SO3","name":"Sulfurous"},
+			{"formula":"H2PoH","name":"Phosphinous"}
+		]
+	},{
+		"name":"Weak Bases",
+		"elements": [
+			{"formula":"NH3","name":"ammonia"},
+			{"formula":"N(CH3)3","name":"trimethyl ammonia"},
+			{"formula":"CCl3COOH","name":"Trichloroacetic"},
+			{"formula":"C5H5N","name":"pyridine"},
+			{"formula":"NH4OH","name":"ammonium hydroxide"},
+			{"formula":"CH3NH2","name":"Methylamine"}
+		]
+	},{
+	
+	"name":"Salts",
+		"elements": [
+			{"formula":"NaCl","name":"Sodium chloride"},
+			{"formula":"KNO3","name":"Potassium nitrate"},
+			{"formula":"K2SO4","name":"Potassium Sulfate"},
+			{"formula":"NH4F","name":"Ammonium fluoride"},
+			{"formula":"MgCO3","name":"Magnesium carbonate"},
+			{"formula":"Fe2(HPO4)3","name":"Iron(III) Hydrogen Phosphate"}
+		]
+	},
+	{
+	"name":"Nonelectrolyte",
+		"elements": [
+			{"formula":"CH3OH","name":"methyl alcohol"},
+			{"formula":"C12H22O11","name":"Sucrose"},
+			{"formula":"CH3COOCH3","name":"Methyl acetate"}
+		]
+	},
+	{
+	"name":"Low Solubility Salts",
+		"elements": [
+			{"formula":"AgCl","name":"Silver chloride"},
+			{"formula":"CaF2","name":"Calcium fluoride"}
+		]
+	}
+]
+
+
+

@@ -1,0 +1,9 @@
+Package: com.wh0ba.schoolref
+Name: schoolref
+Version: 0.1
+Architecture: iphoneos-arm
+Description: An awesome swift application!
+Maintainer: Wh0ba <whappfanr@gmail.com>
+Author: Wh0ba <whappfanr@gmail.com>
+Section: Utilities
+Depends: ${LIBSWIFT}
