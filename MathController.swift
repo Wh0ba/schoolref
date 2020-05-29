@@ -1,7 +1,6 @@
 import UIKit
 
 
-
 /*
 struct spAngle : Codable {
 	var dgree:String
@@ -27,7 +26,7 @@ class MathController: UITableViewController {
 		view.backgroundColor = UIColor.white
 		
 		self.title = "Math"
-		
+
 		tableView.register(UITableViewCell.self, forCellReuseIdentifier: "MCell")
 		
 		
@@ -55,7 +54,7 @@ class MathController: UITableViewController {
 	
 	
 	 override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-		return "Special Angles"//MathTable[IndexPath.section].name
+		return "الزوايا الخاصة"//MathTable[IndexPath.section].name
 	 }
 	
 	

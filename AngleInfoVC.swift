@@ -38,10 +38,9 @@ class AngleInfoVC: UITableViewController {
 		super.loadView()
 		view.backgroundColor = UIColor.white
 		
-		//self.title = "Math"
+		self.title = self.sAngle.dgree
 		
 		tableView.register(UITableViewCell.self, forCellReuseIdentifier: "MtCell")
-		
 		
 		
 	}
@@ -90,7 +89,7 @@ class AngleInfoVC: UITableViewController {
 				return "Csc"
 				
 			default:
-			return "Dgree"
+			return "N/A"
 			
 		}
 	 }

@@ -1,6 +1,6 @@
 [
 	{
-		"name":"Strong Acids",
+		"name":"حوامض قوية",
 		"elements": [
 				{"formula":"HI","name":"Hydroiodic"},
 				{"formula":"HBr","name":"Hydrogen Bromide"},
@@ -13,7 +13,7 @@
 				{"formula":"HMNO4","name":"Permanganic"}
 			]
 		},{
-		"name":"Strong Bases",
+		"name":"قواعد قوية",
 		"elements": [
 			{"formula":"NaOH","name":"Sodium"},
 			{"formula":"KOH","name":"Potassium"},
@@ -25,7 +25,7 @@
 			{"formula":"Sr(OH)2","name":"Strontium"}
 		]
 		},{
-		"name":"Weak Acids",
+		"name":"حوامض ضعيفة",
 		"elements": [
 			{"formula":"HCOOH","name":"Formic"},
 			{"formula":"CH3COOH","name":"Acetic"},
@@ -39,7 +39,7 @@
 			{"formula":"H2PoH","name":"Phosphinous"}
 		]
 	},{
-		"name":"Weak Bases",
+		"name":"قواعد ضعيفة",
 		"elements": [
 			{"formula":"NH3","name":"ammonia"},
 			{"formula":"N(CH3)3","name":"trimethyl ammonia"},
@@ -50,7 +50,7 @@
 		]
 	},{
 	
-	"name":"Salts",
+	"name":"أملاح",
 		"elements": [
 			{"formula":"NaCl","name":"Sodium chloride"},
 			{"formula":"KNO3","name":"Potassium nitrate"},
@@ -61,7 +61,7 @@
 		]
 	},
 	{
-	"name":"Nonelectrolyte",
+	"name":"غير إلكتروليتية",
 		"elements": [
 			{"formula":"CH3OH","name":"methyl alcohol"},
 			{"formula":"C12H22O11","name":"Sucrose"},
@@ -69,7 +69,7 @@
 		]
 	},
 	{
-	"name":"Low Solubility Salts",
+	"name":"أملاح قليلة الذوبان",
 		"elements": [
 			{"formula":"AgCl","name":"Silver chloride"},
 			{"formula":"CaF2","name":"Calcium fluoride"}

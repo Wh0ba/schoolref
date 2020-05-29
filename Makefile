@@ -1,5 +1,5 @@
 
-TARGET = ::7.0
+TARGET = ::11.0
 include $(THEOS)/makefiles/common.mk
 
 ARCHS = arm64
@@ -11,8 +11,8 @@ $(APPLICATION_NAME)_FRAMEWORKS = UIKit CoreGraphics
 
 include $(THEOS_MAKE_PATH)/application.mk
 
-package::
-	packages/dab
+# package::
+# 	packages/dab
 
 after-install::
 	install.exec "killall \"schoolref\"" || true

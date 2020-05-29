@@ -107,6 +107,10 @@
 			<string>{768, 1024}</string>
 		</dict>
 		<dict>
+			<key>UIViewControllerBasedStatusBarAppearance</key>
+			<false/>
+		</dict>
+		<dict>
 			<key>UILaunchImageMinimumOSVersion</key>
 			<string>8.0</string>
 			<key>UILaunchImageName</key>

@@ -21,6 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		
 		setTabBar()
 		
+		UIApplication.shared.statusBarStyle = .lightContent
+
+		UINavigationBar.appearance().prefersLargeTitles = true
+		UINavigationBar.appearance().barTintColor = UIColor(red:0.108 ,green:0.108 ,blue:0.210 ,alpha:1)
+		UINavigationBar.appearance().tintColor = UIColor(red:1 ,green:0.125 ,blue:0.125 ,alpha:1)
+		UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+		UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor(red:1 ,green:0.125 ,blue:0.125 ,alpha:1)]
 		
 		window!.rootViewController = tabVC
 		

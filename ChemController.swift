@@ -23,10 +23,6 @@ struct Element : Codable{
 ₉
 */
 
-
-
-
-
 class ChemController: UITableViewController {
 	
 	
@@ -40,7 +36,7 @@ class ChemController: UITableViewController {
 		view.backgroundColor = UIColor.white
 		//tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
 		self.title = "Chemistry"
-		
+		navigationController?.navigationBar.prefersLargeTitles = true	
 		
 		//UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize:22)], for: .normal)
 		//UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize:22)], for: .selected)
@@ -68,6 +64,10 @@ class ChemController: UITableViewController {
 	 }
 	
 	
+	override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+		let header: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView
+		header.textLabel?.textAlignment = .right
+	}
 		override func numberOfSections(in tableView: UITableView) -> Int {
 		return chemTable.count
 	}
@@ -94,6 +94,8 @@ class ChemController: UITableViewController {
 		let formattedFormula:String = formatFormula(chemTable[indexPath.section].elements[indexPath.row].formula)
 		
 		cell!.textLabel?.text = formattedFormula
+		cell!.textLabel?.font = UIFont(name: "American Typewriter", size: UIFont.labelFontSize)
+		
 		
 		cell!.detailTextLabel?.text = chemTable[indexPath.section].elements[indexPath.row].name
 		
@@ -189,9 +191,5 @@ class VTVCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 }
-
-
-
-
 
 
